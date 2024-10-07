@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 700px; /* Augmentation de la largeur */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  justify-content: center; /* Centre les éléments verticalement */
+  align-items: center; /* Centre les éléments horizontalement */
+  text-align: center; /* Centre le texte à l'intérieur des éléments */
+}
+
+#formulaire-recherche {
+  width: 100%; /* Prendre toute la largeur */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulaire-recherche p {
+  width: 100%;
+  text-align: left; /* Aligne le texte à gauche */
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%; /* Prendre toute la largeur */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd; /* Ajout des bordures */
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #ccc; /* Bordure pour l'en-tête */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Couleur pour les lignes paires */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Couleur lors du survol */
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+/* Enlever la couleur de fond de l'en-tête du tableau pour les colonnes "Nom" et "Prix" */
+#product-table th {
+  background-color: transparent;
+}
