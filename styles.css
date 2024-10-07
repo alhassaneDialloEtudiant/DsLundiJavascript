@@ -1,0 +1,71 @@
+/* Global container style */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Search input style */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Checkbox style */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Table style */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Permet de fusionner les bordures */
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Bordure externe pour l'ensemble du tableau */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Bordure autour de chaque cellule */
+}
+
+/* Table header */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Row styling for alternating rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Products out of stock */
+td.red {
+    color: red;
+    font-weight: bold;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for the checkbox label */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
